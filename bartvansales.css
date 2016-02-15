@@ -1,0 +1,24 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+
+    background-color: #835aa8;
+}
+
+#content {
+    margin: 15mm;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#bartvansales {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+}
