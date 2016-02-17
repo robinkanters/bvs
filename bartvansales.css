@@ -3,13 +3,27 @@ html, body {
     padding: 0;
     width: 80%;
 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #835aa8;
 }
 
 #content {
     margin: 15mm;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
+}
+
+#verkopen {
+    background: none;
+    color: white;
+    font-size: 2.5em;
+
+    margin: 30mm auto;
+
+    transform: rotate(348deg);
+    -webkit-transform: rotate(348deg);
+    -moz-transform: rotate(348deg);
+    -o-transform: rotate(348deg);
+    -ms-transform: rotate(348deg);
 }
 
 h1 {
@@ -17,6 +31,8 @@ h1 {
 }
 
 #bartvansales {
+    z-index: -100;
+
     position: fixed;
     bottom: 0;
     right: 0;
