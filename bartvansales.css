@@ -26,15 +26,27 @@ html, body {
     -ms-transform: rotate(348deg);
 }
 
+#giphy {
+    float: left;
+    margin-left: 250px;
+}
+
+#giphy img {
+    width: 400px;
+}
+
 h1 {
     font-size: 3em;
 }
 
 #bartvansales {
-    z-index: -100;
+    /*z-index: -100;*/
 
     position: fixed;
     bottom: 0;
     right: 0;
     height: 80%;
+
+    float: right;
+    background: none;
 }
